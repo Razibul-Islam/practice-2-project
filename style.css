@@ -119,6 +119,7 @@ header .banner .half img {
     font-weight: 700;
     text-align: right;
     margin-top: 50px;
+    cursor: pointer;
 }
 
 .cards .card {
