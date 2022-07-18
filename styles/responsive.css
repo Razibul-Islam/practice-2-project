@@ -1,0 +1,144 @@
+@media screen and (max-width: 576px) {
+    header {
+        margin: 35px 16px;
+    }
+
+    nav .menu-1 {
+        display: block;
+    }
+
+    nav .logo h3 {
+        font-size: 16px;
+    }
+
+    header .banner {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    header .banner .half {
+        width: 100%;
+        margin-bottom: 14px;
+    }
+
+    header .banner .half img {
+        width: 257px;
+    }
+
+    header .banner .half h1 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    header .banner .half p {
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+
+    nav .menu .shopping-card {
+        display: none;
+    }
+
+    /* logos */
+    .logos {
+        flex-wrap: wrap;
+    }
+
+    .logos .logo {
+        padding: 15px 10px;
+        margin-top: 10px;
+    }
+
+    /* collection section */
+    .main>h2 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .main-card {
+        display: block;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .cards .card-inner {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        place-items: center;
+        grid-gap: 15px;
+    }
+
+    .cards .more-product {
+        margin-top: 32px;
+    }
+
+    /* featured section */
+    /* .feature {}
+
+    .content {
+        
+    width: 100%;
+        flex-direction: column-reverse;
+    }
+    .content .feature-image img{
+        width: 100%;
+    }
+
+    .content .feature-text {
+        text-align: center;
+    }
+
+    .content .feature-text .feature-heading {
+        font-size: 24px;
+    } */
+    /* .feature {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    } */
+
+    .content {
+        flex-direction: column-reverse;
+    }
+
+    .content .feature-image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .content .feature-image img {
+        width: 80%;
+    }
+
+    .content .feature-text {
+        margin: 0px 10px;
+        text-align: center;
+    }
+
+    .content .feature-text .feature-heading {
+        font-size: 24px;
+        margin-bottom: 14px;
+    }
+
+    .content .feature-text .feature-paragraph {
+        margin-bottom: 39px;
+    }
+
+    .content .feature-text .feature-button {
+        margin-bottom: 30px;
+    }
+
+    /* footer start */
+    footer .footer-text h2 {
+        font-size: 16px;
+    }
+    footer .footer-text p {
+        font-size: 12px;
+    }
+
+}
