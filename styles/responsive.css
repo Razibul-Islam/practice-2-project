@@ -77,6 +77,10 @@
         margin-top: 32px;
     }
 
+    .card-inner .card .text .icon{
+        padding-top: 5px;
+    }
+
     /* featured section */
 
     .content {
