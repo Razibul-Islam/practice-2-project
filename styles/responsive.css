@@ -78,29 +78,6 @@
     }
 
     /* featured section */
-    /* .feature {}
-
-    .content {
-        
-    width: 100%;
-        flex-direction: column-reverse;
-    }
-    .content .feature-image img{
-        width: 100%;
-    }
-
-    .content .feature-text {
-        text-align: center;
-    }
-
-    .content .feature-text .feature-heading {
-        font-size: 24px;
-    } */
-    /* .feature {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    } */
 
     .content {
         flex-direction: column-reverse;
@@ -137,6 +114,7 @@
     footer .footer-text h2 {
         font-size: 16px;
     }
+
     footer .footer-text p {
         font-size: 12px;
     }
