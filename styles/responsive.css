@@ -77,8 +77,8 @@
         margin-top: 32px;
     }
 
-    .card-inner .card .text .icon{
-        padding-top: 5px;
+    .card-inner .card .text .icon {
+        padding: 15px 0;
     }
 
     /* featured section */
